@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 临时文件
+temp_evidence/
+*.tmp
+temp_*.py
+temp_*.csv
+temp_*.xlsx
+~$*.xlsx
+~$*.xls
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 日志
+*.log
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 临时图片
+*.png
+*.jpg
+*.jpeg
+!screenshot/
+
+# 压缩包
+*.zip
+!一键安装包/*.zip
